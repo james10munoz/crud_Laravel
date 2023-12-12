@@ -24,7 +24,7 @@
                         <td class="border-b px-4 py-2">{{ $cliente->direccion }}</td>
                         <td class="border-b px-4 py-2">{{ $cliente->telefono }}</td>
                         <td class="border-b px-4 py-2 flex space-x-2">
-                            <button type="button" class="bg-green-500 hover:bg-green-600 transition-colors text-white px-3 py-1 rounded-lg">
+                            <button type="button" class="bg-cyan-700 hover:bg-cyan-400 transition-colors text-white px-3 py-1 rounded-lg">
                                 <a href="{{ url('clientes/'.$cliente->cedula.'/edit') }}">Editar</a>
                             </button>
                             <form action="{{ route('clientes.destroy', $cliente->id) }}" method="post">
@@ -40,7 +40,7 @@
     </div>
 
     <div class="flex justify-center mt-5">
-        <button type="submit" class="bg-indigo-600 hover:bg-indigo-700 transition-colors cursor-pointer uppercase font-bold w-52 p-3 text-white rounded-lg">
+        <button type="submit" class="bg-zinc-700 hover:bg-slate-500 transition-colors cursor-pointer uppercase font-bold w-52 p-3 text-white rounded-lg">
             <a href="{{ route('create') }}">Registrar cliente</a>
         </button>
     </div>

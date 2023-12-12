@@ -45,7 +45,7 @@
                 @enderror
             </div>
 
-            <button type="submit" class="button bg-sky-600 hover:bg-sky-700 text-white font-bold py-2 px-4 rounded-full w-full">
+            <button type="submit" class="button bg-orange-700 hover:bg-gray-400 text-white font-bold py-2 px-4 rounded-full w-full">
                 Registrar cliente
             </button>
         </form>

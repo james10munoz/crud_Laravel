@@ -40,7 +40,7 @@
                     @enderror
                 </div>
 
-                <button type="submit" class="bg-blue-500 hover:bg-blue-600 transition-colors cursor-pointer text-white font-bold w-full p-3 rounded-lg">Crear cuenta</button>
+                <button type="submit" class="bg-lime-700 hover:bg-lime-500 transition-colors cursor-pointer text-white font-bold w-full p-3 rounded-lg">Crear cuenta</button>
             </form>
         </div>
     </div>
